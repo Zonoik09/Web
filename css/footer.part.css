@@ -1,0 +1,14 @@
+.pie {
+    background-color: black;
+    padding: 5px;
+    border-top: 1px solid white;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 2px 5px rgba(255, 255, 255, 0.4);
+}
