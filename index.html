@@ -3,27 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Zonoik's Projects
+    </title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Road+Rage&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="icon" href="imgs/Zonoik.jpg" type="image/x-icon">
-    <script src="javascript/shadowPartial.js"></script>
 </head>
 <body>
     <header>
-        <shadow-partial data-html="htmls/menu.part.html" data-css="css/menu.part.css"></shadow-partial>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div class="videopart">
-            <video src="imgs/southpark1_00086399.mov" width="854" height="480" controls></video>
+        <div class="hero">
+            <h1>Streaming <span>or Programming</span></h1>
+            <p>Explore content about coding, streaming, and more in a unique and futuristic style.</p>
+            <div class="btn-group">
+                <button class="btn-primary">Home</button>
+                <button class="btn-secondary">Projects</button>
+            </div>
         </div>
+        <section class="cards">
+            <div class="card">
+                <img src="img1.png" alt="Home">
+                <h2>Home</h2>
+                <p>Description for the home section goes here.</p>
+                <button class="btn-primary">Home</button>
+            </div>
+            <div class="card">
+                <img src="img2.png" alt="Projects">
+                <h2>Projects</h2>
+                <p>Description for the projects section goes here.</p>
+                <button class="btn-primary">Contact</button>
+            </div>
+            <div class="card">
+                <img src="img3.png" alt="Streams">
+                <h2>Streams</h2>
+                <p>Description for the streams section goes here.</p>
+                <button class="btn-primary">Contact</button>
+            </div>
+        </section>
     </main>
-    <footer>
-        <shadow-partial data-html="htmls/footer.part.html" data-css="css/footer.part.css"></shadow-partial>
-    </footer>
 </body>
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script src="javascript/kofidraw.js"></script>

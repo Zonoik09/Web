@@ -1,18 +1,136 @@
-body {
+/* Estilos básicos de la página */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.videopart {
-    background-color: black;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #D3D3D3;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #1A1A1A;
+}
+
+nav ul {
+    list-style: none;
     display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #D3D3D3;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.btn-login {
+    background-color: #6A0DAD;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2% 20% 2%;
+    background-color: black;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #9F7AEA;
+}
+
+.hero h1 span {
+    color: #B993D6;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+}
+
+.btn-group {
+    display: flex;
+    gap: 20px;
     justify-content: center;
 }
 
-video {
-    border: 1px solid white;
+.btn-primary, .btn-secondary {
+    background-color: #6A0DAD;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: #9F7AEA;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #1A1A1A;
+    padding: 20px;
     border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    color: #D3D3D3;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: #B993D6;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.card button {
+    margin-top: 10px;
+    background-color: #6A0DAD;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #9F7AEA;
 }
